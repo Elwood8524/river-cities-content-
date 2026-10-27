@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-10-27",
   "appTitle": "River Cities",
   "host": {
@@ -437,7 +437,7 @@
       ],
       "shop": [
         {
-          "label": "Café Du Monde coffee & chicory",
+          "label": "Café Du Monde chicory coffee",
           "url": "https://www.amazon.com/s?k=Cafe+Du+Monde+coffee+chicory",
           "kind": "shop"
         },
