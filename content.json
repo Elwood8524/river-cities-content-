@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated": "2026-10-26",
+  "version": 3,
+  "updated": "2026-10-27",
   "appTitle": "River Cities",
   "host": {
     "name": "JP Smith",
@@ -648,6 +648,16 @@
           "lat": 29.9608,
           "lng": -90.0624,
           "mapUrl": "https://maps.app.goo.gl/yVpe9kpszxfPXWdW6"
+        },
+        {
+          "id": "sazerac-bar",
+          "name": "The Sazerac Bar at the Roosevelt",
+          "category": "drinks",
+          "blurb": "Home of the Ramos Gin Fizz, invented in New Orleans in 1888. Governor Huey Long loved it so much he took a Roosevelt bartender to New York in 1935 to teach them how to make it properly.",
+          "address": "130 Roosevelt Way, New Orleans, LA 70112",
+          "lat": 29.9545,
+          "lng": -90.0713,
+          "tip": "Order the Ramos Gin Fizz. It takes a while to shake, so be patient."
         },
         {
           "id": "mardi-gras-world",
