@@ -1,0 +1,1067 @@
+{
+  "version": 2,
+  "updated": "2026-10-26",
+  "appTitle": "River Cities",
+  "host": {
+    "name": "JP Smith",
+    "greeting": "Hi, I'm JP! These are my personal favorites in the cities we visit. Tap a city to start.",
+    "email": "JP@joelpsmith.com"
+  },
+  "affiliate": {
+    "viatorPid": "",
+    "viatorMcid": "42383",
+    "amazonTag": "cityguide00-20"
+  },
+  "contact": {
+    "formEndpoint": ""
+  },
+  "cities": [
+    {
+      "id": "memphis",
+      "name": "Memphis",
+      "state": "Tennessee",
+      "tagline": "Home of the Blues & Birthplace of Rock 'n' Roll",
+      "color": "#E4002B",
+      "color2": "#1F4E79",
+      "emoji": "🎸",
+      "toursLink": {
+        "label": "Book Memphis Tours",
+        "url": "https://www.viator.com/searchResults/all?text=Memphis+Tennessee",
+        "kind": "tour"
+      },
+      "categories": [
+        {
+          "id": "eat",
+          "label": "Places to Eat",
+          "emoji": "🍖",
+          "color": "#F28C28"
+        },
+        {
+          "id": "music",
+          "label": "Music & Sights",
+          "emoji": "🎶",
+          "color": "#7B2CBF"
+        },
+        {
+          "id": "drinks",
+          "label": "Iconic Drinks",
+          "emoji": "🍹",
+          "color": "#00A6A6"
+        },
+        {
+          "id": "see",
+          "label": "Must-See",
+          "emoji": "⭐",
+          "color": "#E4002B"
+        },
+        {
+          "id": "history",
+          "label": "Civil Rights History",
+          "emoji": "✊",
+          "color": "#1F4E79"
+        }
+      ],
+      "dayPlan": [
+        {
+          "title": "Day One",
+          "stops": [
+            {
+              "when": "Morning",
+              "text": "The Peabody Hotel for the famous Duck March."
+            },
+            {
+              "when": "Late morning",
+              "text": "Tour Sun Studio."
+            },
+            {
+              "when": "Lunch",
+              "text": "Rendezvous for dry-rub ribs, or the Arcade for Elvis's peanut butter and banana sandwich."
+            },
+            {
+              "when": "Afternoon",
+              "text": "The National Civil Rights Museum."
+            },
+            {
+              "when": "Evening",
+              "text": "Beale Street for live blues."
+            }
+          ]
+        },
+        {
+          "title": "Day Two",
+          "stops": [
+            {
+              "when": "Morning",
+              "text": "Graceland. Even non-fans leave changed."
+            },
+            {
+              "when": "Afternoon",
+              "text": "The Rock 'n' Soul Museum on Beale Street."
+            },
+            {
+              "when": "Late day",
+              "text": "Bass Pro Pyramid observation deck for the river view."
+            }
+          ]
+        }
+      ],
+      "shop": [
+        {
+          "label": "Elvis at Sun Records (music)",
+          "url": "https://www.amazon.com/s?k=Elvis+Presley+Sun+Sessions",
+          "kind": "shop"
+        },
+        {
+          "label": "Memphis BBQ dry rub",
+          "url": "https://www.amazon.com/s?k=Rendezvous+Memphis+dry+rub+seasoning",
+          "kind": "shop"
+        },
+        {
+          "label": "Memphis history books",
+          "url": "https://www.amazon.com/s?k=Memphis+Tennessee+history+book",
+          "kind": "shop"
+        }
+      ],
+      "places": [
+        {
+          "id": "rendezvous",
+          "name": "Charlie Vergos' Rendezvous",
+          "category": "eat",
+          "blurb": "Since 1948 in a basement alley off Monroe Avenue. Charcoal-grilled dry-rub ribs with a secret Greek spice blend. The single most iconic meal in the city.",
+          "address": "52 S 2nd St, Memphis, TN 38103",
+          "lat": 35.1429,
+          "lng": -90.0522,
+          "mapUrl": "https://maps.app.goo.gl/DrcFTgZg25jvUVeF9"
+        },
+        {
+          "id": "arcade",
+          "name": "Arcade Restaurant",
+          "category": "eat",
+          "blurb": "Memphis's oldest cafe, open since 1919. Elvis was a regular, and his grilled peanut butter and banana sandwich is still on the menu.",
+          "address": "540 S Main St, Memphis, TN 38103",
+          "lat": 35.1325,
+          "lng": -90.0571,
+          "mapUrl": "https://maps.app.goo.gl/ZE5vwH1kiRrXExJo9"
+        },
+        {
+          "id": "central-bbq",
+          "name": "Central BBQ",
+          "category": "eat",
+          "blurb": "Slow-smoked pulled pork and ribs in a sweet, tangy sauce. The pulled-pork nachos are a local obsession.",
+          "address": "147 E Butler Ave, Memphis, TN 38103",
+          "lat": 35.1334,
+          "lng": -90.056,
+          "mapUrl": "https://maps.app.goo.gl/pj4HXs16g35z18K88",
+          "tip": "Downtown location is next to the Civil Rights Museum."
+        },
+        {
+          "id": "gus",
+          "name": "Gus's World Famous Fried Chicken",
+          "category": "eat",
+          "blurb": "Spicy, crispy fried chicken that's been called the best in America.",
+          "address": "310 S Front St, Memphis, TN 38103",
+          "lat": 35.1386,
+          "lng": -90.0544,
+          "mapUrl": "https://maps.app.goo.gl/73hZVKoHhUTab3PX9",
+          "tip": "Expect a short wait. Worth it."
+        },
+        {
+          "id": "blues-city",
+          "name": "Blues City Cafe",
+          "category": "eat",
+          "blurb": "Fall-off-the-bone ribs and Delta tamales, with live blues nightly. One of the best values on Beale.",
+          "address": "138 Beale St, Memphis, TN 38103",
+          "lat": 35.1394,
+          "lng": -90.0517,
+          "mapUrl": "https://maps.app.goo.gl/eT8xzcjmStXkMEew7"
+        },
+        {
+          "id": "bb-kings",
+          "name": "B.B. King's Blues Club",
+          "category": "eat",
+          "blurb": "Great BBQ and live blues every night, named for the King of the Blues.",
+          "address": "143 Beale St, Memphis, TN 38103",
+          "lat": 35.1392,
+          "lng": -90.0519,
+          "mapUrl": "https://maps.app.goo.gl/vjVgcqLu9egeq1RL9"
+        },
+        {
+          "id": "beale",
+          "name": "Beale Street",
+          "category": "music",
+          "blurb": "Designated by Congress as \"The Home of the Blues.\" By night it's an open-air music festival.",
+          "address": "Beale St, Memphis, TN 38103",
+          "lat": 35.1393,
+          "lng": -90.051,
+          "mapUrl": "https://maps.app.goo.gl/y8XexTvBYs74iyEu5",
+          "links": [
+            {
+              "label": "Beale Street tours",
+              "url": "https://www.viator.com/searchResults/all?text=Beale+Street+Memphis",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "sun-studio",
+          "name": "Sun Studio",
+          "category": "music",
+          "blurb": "Where a teenage Elvis walked in in 1953 and changed the world. Johnny Cash, B.B. King and Jerry Lee Lewis recorded here too.",
+          "address": "706 Union Ave, Memphis, TN 38103",
+          "lat": 35.1393,
+          "lng": -90.0379,
+          "mapUrl": "https://maps.app.goo.gl/4LRLQ7vQKdMuVrdE8",
+          "links": [
+            {
+              "label": "Sun Studio tickets & tours",
+              "url": "https://www.viator.com/searchResults/all?text=Sun+Studio+Memphis",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "stax",
+          "name": "Stax Museum of American Soul Music",
+          "category": "music",
+          "blurb": "On the site of the original Stax studio: Otis Redding, Isaac Hayes, Booker T. & the MGs. Don't miss Isaac Hayes' gold-plated Cadillac.",
+          "address": "926 E McLemore Ave, Memphis, TN 38106",
+          "lat": 35.115,
+          "lng": -90.0336,
+          "mapUrl": "https://maps.app.goo.gl/MW8Rz8N2Ghcrn7GR7",
+          "links": [
+            {
+              "label": "Stax tours",
+              "url": "https://www.viator.com/searchResults/all?text=Stax+Museum+Memphis",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "south-main",
+          "name": "South Main Arts District",
+          "category": "music",
+          "blurb": "Memphis's most walkable neighborhood: galleries, boutiques, cocktail bars and restaurants in old warehouses.",
+          "address": "S Main St, Memphis, TN 38103",
+          "lat": 35.131,
+          "lng": -90.0575,
+          "tip": "Right next to the Civil Rights Museum."
+        },
+        {
+          "id": "silky",
+          "name": "Silky O'Sullivan's",
+          "category": "drinks",
+          "blurb": "Famous for the yard-long \"Diver\" drink and, improbably, live goats in the courtyard.",
+          "address": "183 Beale St, Memphis, TN 38103",
+          "lat": 35.1388,
+          "lng": -90.0506,
+          "mapUrl": "https://maps.app.goo.gl/m2DhNVnr4xdPLkp87"
+        },
+        {
+          "id": "peabody",
+          "name": "The Peabody Hotel Lobby Bar",
+          "category": "drinks",
+          "blurb": "Since 1933, live ducks have marched twice daily through the Peabody's lobby. Have a cocktail and watch.",
+          "address": "149 Union Ave, Memphis, TN 38103",
+          "lat": 35.1424,
+          "lng": -90.0519,
+          "mapUrl": "https://maps.app.goo.gl/xfx1TsjWNAf2o4gE7",
+          "tip": "Arrive by 5 p.m. for the evening march."
+        },
+        {
+          "id": "graceland",
+          "name": "Graceland",
+          "category": "see",
+          "blurb": "Elvis's home from 1957 to 1977. The Jungle Room, the Hall of Gold and the Meditation Garden. Fan or not, it's a must.",
+          "address": "3764 Elvis Presley Blvd, Memphis, TN 38116",
+          "lat": 35.0477,
+          "lng": -90.026,
+          "mapUrl": "https://maps.app.goo.gl/BFsR4eZxptPEXRkXA",
+          "links": [
+            {
+              "label": "Graceland tickets & tours",
+              "url": "https://www.viator.com/searchResults/all?text=Graceland",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "rock-soul",
+          "name": "Memphis Rock 'n' Soul Museum",
+          "category": "see",
+          "blurb": "A Smithsonian creation tracing American music from the Delta cotton fields to the world stage. The audio tour has 100+ songs.",
+          "address": "191 Beale St, Memphis, TN 38103",
+          "lat": 35.1381,
+          "lng": -90.052,
+          "mapUrl": "https://maps.app.goo.gl/aKajfzbTTWy12iVE8"
+        },
+        {
+          "id": "pyramid",
+          "name": "Bass Pro Shops at the Pyramid",
+          "category": "see",
+          "blurb": "A 32-story steel pyramid on the river with live alligators inside. Ride up to the observation deck for the best view in town.",
+          "address": "1 Bass Pro Dr, Memphis, TN 38105",
+          "lat": 35.1557,
+          "lng": -90.0518,
+          "mapUrl": "https://maps.app.goo.gl/xzkgW187NuUnVQ5D7",
+          "tip": "Observation deck has a fee."
+        },
+        {
+          "id": "ncrm",
+          "name": "National Civil Rights Museum",
+          "category": "history",
+          "blurb": "Built at the Lorraine Motel, ending at Room 306, where Dr. King was shot on April 4, 1968. One of the most important museums in America.",
+          "address": "450 Mulberry St, Memphis, TN 38103",
+          "lat": 35.1345,
+          "lng": -90.0576,
+          "mapUrl": "https://maps.app.goo.gl/tWrTwp2sJboDQkXMA",
+          "tip": "Budget at least two hours.",
+          "links": [
+            {
+              "label": "Civil rights tours",
+              "url": "https://www.viator.com/searchResults/all?text=Memphis+civil+rights+tour",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "mason-temple",
+          "name": "Mason Temple & Mountaintop Memorial",
+          "category": "history",
+          "blurb": "Where Dr. King gave his final speech, \"I've Been to the Mountaintop,\" the night before he died.",
+          "address": "930 Mason St, Memphis, TN 38126",
+          "lat": 35.1225,
+          "lng": -90.0465,
+          "mapUrl": "https://maps.app.goo.gl/uQy4MbqMZc8s3Jch8"
+        },
+        {
+          "id": "i-am-a-man",
+          "name": "I Am a Man Plaza",
+          "category": "history",
+          "blurb": "Honors the 1,300 sanitation workers who struck in 1968. Their strike brought Dr. King to Memphis.",
+          "address": "294 Hernando St, Memphis, TN 38126",
+          "lat": 35.1372,
+          "lng": -90.0515,
+          "mapUrl": "https://maps.app.goo.gl/5WFaJRjzRMD34TVe6"
+        },
+        {
+          "id": "slave-haven",
+          "name": "Slave Haven Underground Railroad Museum",
+          "category": "history",
+          "blurb": "Told Memphis's Underground Railroad story, with hidden spaces used to shelter freedom seekers.",
+          "address": "826 N 2nd St, Memphis, TN 38107",
+          "lat": 35.1617,
+          "lng": -90.0461,
+          "mapUrl": "https://maps.app.goo.gl/X8wmUB2tFu1RCLcj6",
+          "closed": "Closed after a fire. Check before visiting."
+        }
+      ]
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "state": "Louisiana",
+      "tagline": "Jazz, Beignets & Bayou Magic",
+      "color": "#6A1B9A",
+      "color2": "#00873E",
+      "emoji": "⚜️",
+      "toursLink": {
+        "label": "Book New Orleans Tours",
+        "url": "https://www.viator.com/searchResults/all?text=New+Orleans",
+        "kind": "tour"
+      },
+      "categories": [
+        {
+          "id": "eat",
+          "label": "Places to Eat",
+          "emoji": "🍽️",
+          "color": "#F28C28"
+        },
+        {
+          "id": "music",
+          "label": "Sights, Music & Shopping",
+          "emoji": "🎷",
+          "color": "#6A1B9A"
+        },
+        {
+          "id": "drinks",
+          "label": "Iconic Drinks",
+          "emoji": "🍹",
+          "color": "#00A6A6"
+        },
+        {
+          "id": "see",
+          "label": "Must-See",
+          "emoji": "⭐",
+          "color": "#00873E"
+        }
+      ],
+      "dayPlan": [
+        {
+          "title": "A Day in New Orleans",
+          "stops": [
+            {
+              "when": "Morning",
+              "text": "Jackson Square, then beignets and chicory coffee at Café Du Monde."
+            },
+            {
+              "when": "Late morning",
+              "text": "Stroll the French Market, then ride the St. Charles streetcar through the Garden District (90-minute round trip)."
+            },
+            {
+              "when": "Lunch",
+              "text": "Muffuletta at Central Grocery, a po'boy at Mother's, or Court of Two Sisters."
+            },
+            {
+              "when": "Afternoon",
+              "text": "Mardi Gras World to see the floats being built."
+            },
+            {
+              "when": "Late afternoon",
+              "text": "A drink on Bourbon Street before dinner."
+            },
+            {
+              "when": "Night",
+              "text": "Frenchmen Street for live, authentic jazz."
+            }
+          ]
+        },
+        {
+          "title": "Day Two",
+          "stops": [
+            {
+              "when": "All day",
+              "text": "The National WWII Museum. It deserves the whole day."
+            }
+          ]
+        }
+      ],
+      "shop": [
+        {
+          "label": "Café Du Monde coffee & chicory",
+          "url": "https://www.amazon.com/s?k=Cafe+Du+Monde+coffee+chicory",
+          "kind": "shop"
+        },
+        {
+          "label": "Café Du Monde beignet mix",
+          "url": "https://www.amazon.com/s?k=Cafe+Du+Monde+beignet+mix",
+          "kind": "shop"
+        },
+        {
+          "label": "Pat O'Brien's Hurricane mix",
+          "url": "https://www.amazon.com/s?k=Pat+O%27Brien%27s+hurricane+mix",
+          "kind": "shop"
+        }
+      ],
+      "places": [
+        {
+          "id": "cafe-du-monde",
+          "name": "Café Du Monde",
+          "category": "eat",
+          "blurb": "Since 1862. Beignets (square French doughnuts) and café au lait, 24 hours a day.",
+          "address": "800 Decatur St, New Orleans, LA 70116",
+          "lat": 29.9575,
+          "lng": -90.0619,
+          "mapUrl": "https://maps.app.goo.gl/j9AUY4cSCZT2Zi6H6",
+          "tip": "Cash only."
+        },
+        {
+          "id": "mothers",
+          "name": "Mother's Restaurant",
+          "category": "eat",
+          "blurb": "Since 1938, famous for feeding WWII sailors. Home of the \"World's Best\" baked ham po'boy.",
+          "address": "401 Poydras St, New Orleans, LA 70130",
+          "lat": 29.9488,
+          "lng": -90.067,
+          "mapUrl": "https://maps.app.goo.gl/8BV6aiTtEiYFwN7G7",
+          "tip": "Try the Ferdi Special."
+        },
+        {
+          "id": "central-grocery",
+          "name": "Central Grocery & Provisions",
+          "category": "eat",
+          "blurb": "Founded in 1906 by Sicilian immigrant Salvatore Lupo. The birthplace of the muffuletta sandwich.",
+          "address": "923 Decatur St, New Orleans, LA 70116",
+          "lat": 29.959,
+          "lng": -90.061,
+          "mapUrl": "https://maps.app.goo.gl/5u7QhVKQ4jq6qVVW6",
+          "tip": "One sandwich feeds 2 to 4 people."
+        },
+        {
+          "id": "acme",
+          "name": "Acme Oyster House",
+          "category": "eat",
+          "blurb": "A classic oyster saloon since 1910. Fresh Gulf oysters, raw or chargrilled.",
+          "address": "724 Iberville St, New Orleans, LA 70130",
+          "lat": 29.9545,
+          "lng": -90.0687,
+          "mapUrl": "https://maps.app.goo.gl/yErBFHJDByvmF1D37"
+        },
+        {
+          "id": "brennans",
+          "name": "Brennan's",
+          "category": "eat",
+          "blurb": "Formal French Quarter dining since 1946, and home of the tableside-flamed Bananas Foster.",
+          "address": "417 Royal St, New Orleans, LA 70130",
+          "lat": 29.9562,
+          "lng": -90.0658,
+          "mapUrl": "https://maps.app.goo.gl/GtvUbVPfXnBqp6cQ8"
+        },
+        {
+          "id": "antoines",
+          "name": "Antoine's Restaurant",
+          "category": "eat",
+          "blurb": "America's oldest family-run restaurant (1840) and birthplace of Oysters Rockefeller. Fifteen ornate dining rooms.",
+          "address": "713 St Louis St, New Orleans, LA 70130",
+          "lat": 29.9567,
+          "lng": -90.0657,
+          "mapUrl": "https://maps.app.goo.gl/bMQbWgxK5UDWzxpw8"
+        },
+        {
+          "id": "two-sisters",
+          "name": "Court of Two Sisters",
+          "category": "eat",
+          "blurb": "Daily Jazz Brunch in a lush courtyard on the site of a 1726 governor's mansion.",
+          "address": "613 Royal St, New Orleans, LA 70130",
+          "lat": 29.9577,
+          "lng": -90.0644,
+          "mapUrl": "https://maps.app.goo.gl/uBy61uJSCqGB9gk1A"
+        },
+        {
+          "id": "streetcar",
+          "name": "St. Charles Streetcar & Garden District",
+          "category": "music",
+          "blurb": "Running since 1835. The best way to see the grand Greek Revival and Victorian mansions of St. Charles Avenue.",
+          "address": "Canal St & St Charles Ave, New Orleans, LA 70130",
+          "lat": 29.9535,
+          "lng": -90.0705,
+          "mapUrl": "https://maps.app.goo.gl/Wt3YKLJ9o5uQa9Gx9",
+          "tip": "Cash or app. $1.25 adults, 40¢ seniors, $3 all-day pass.",
+          "links": [
+            {
+              "label": "Garden District walking tours",
+              "url": "https://www.viator.com/searchResults/all?text=Garden+District+walking+tour+New+Orleans",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "magazine",
+          "name": "Magazine Street",
+          "category": "music",
+          "blurb": "Six miles of boutiques, galleries and local restaurants, from the Lower Garden District to Audubon Park.",
+          "address": "Magazine St, New Orleans, LA 70130",
+          "lat": 29.929,
+          "lng": -90.079,
+          "mapUrl": "https://maps.app.goo.gl/18f5nVCcSkDgR3vQ8"
+        },
+        {
+          "id": "french-market",
+          "name": "French Market",
+          "category": "music",
+          "blurb": "Since 1791, the oldest continuously operating public market in the U.S. Souvenirs, crafts and food stalls.",
+          "address": "1008 N Peters St, New Orleans, LA 70116",
+          "lat": 29.9601,
+          "lng": -90.0592,
+          "mapUrl": "https://maps.app.goo.gl/6vX4BM3aaxHW2WRb9"
+        },
+        {
+          "id": "bourbon",
+          "name": "Bourbon Street",
+          "category": "music",
+          "blurb": "Named for the French royal House of Bourbon. The heart of the late-night party scene.",
+          "address": "Bourbon St, New Orleans, LA 70116",
+          "lat": 29.9585,
+          "lng": -90.065,
+          "mapUrl": "https://maps.app.goo.gl/kwC6QuhHMNpbPfK87"
+        },
+        {
+          "id": "frenchmen",
+          "name": "Frenchmen Street",
+          "category": "music",
+          "blurb": "The \"locals' Bourbon Street.\" The best place in town for authentic jazz, blues and funk.",
+          "address": "500-600 Frenchmen St, New Orleans, LA 70116",
+          "lat": 29.9644,
+          "lng": -90.0577,
+          "mapUrl": "https://maps.app.goo.gl/m3C17d5m9BFrCvjW7",
+          "links": [
+            {
+              "label": "Jazz tours & music nights",
+              "url": "https://www.viator.com/searchResults/all?text=New+Orleans+jazz+tour",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "preservation-hall",
+          "name": "Preservation Hall",
+          "category": "music",
+          "blurb": "Founded in 1961 to preserve New Orleans jazz. Intimate acoustic shows nightly in a rustic room.",
+          "address": "726 St Peter St, New Orleans, LA 70116",
+          "lat": 29.9583,
+          "lng": -90.0652,
+          "mapUrl": "https://maps.app.goo.gl/Trfa1j5JDLis9uHM7",
+          "tip": "Tickets required.",
+          "links": [
+            {
+              "label": "Preservation Hall tickets",
+              "url": "https://www.viator.com/searchResults/all?text=Preservation+Hall",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "fritzels",
+          "name": "Fritzel's European Jazz Pub",
+          "category": "music",
+          "blurb": "In a pre-Civil War building, with classic, up-close traditional jazz.",
+          "address": "733 Bourbon St, New Orleans, LA 70116",
+          "lat": 29.9589,
+          "lng": -90.0647,
+          "mapUrl": "https://maps.app.goo.gl/QDykmGMkts6szNhB8"
+        },
+        {
+          "id": "pat-obriens",
+          "name": "Pat O'Brien's",
+          "category": "drinks",
+          "blurb": "A Prohibition speakeasy that invented the Hurricane. Dueling pianos and a flaming fountain courtyard.",
+          "address": "718 St Peter St, New Orleans, LA 70116",
+          "lat": 29.9581,
+          "lng": -90.0651,
+          "mapUrl": "https://maps.app.goo.gl/Fa6xRJx1TjoanTR69"
+        },
+        {
+          "id": "tropical-isle",
+          "name": "Tropical Isle",
+          "category": "drinks",
+          "blurb": "Inventors of the Hand Grenade, a sweet, strong and very festive tropical drink.",
+          "address": "600 Bourbon St, New Orleans, LA 70130",
+          "lat": 29.9576,
+          "lng": -90.0659,
+          "mapUrl": "https://maps.app.goo.gl/ydUPzXNKnKQCAhB4A"
+        },
+        {
+          "id": "lafittes",
+          "name": "Lafitte's Blacksmith Shop Bar",
+          "category": "drinks",
+          "blurb": "Built between 1772 and 1791, one of the oldest buildings used as a bar in the U.S. Dark, candlelit and historic.",
+          "address": "941 Bourbon St, New Orleans, LA 70116",
+          "lat": 29.9608,
+          "lng": -90.0624,
+          "mapUrl": "https://maps.app.goo.gl/yVpe9kpszxfPXWdW6"
+        },
+        {
+          "id": "mardi-gras-world",
+          "name": "Mardi Gras World",
+          "category": "see",
+          "blurb": "The working warehouse where Mardi Gras floats have been built since 1947. See the artistry up close, year-round.",
+          "address": "1380 Port of New Orleans Pl, New Orleans, LA 70130",
+          "lat": 29.9365,
+          "lng": -90.0604,
+          "mapUrl": "https://maps.app.goo.gl/sDP7mdq1a7SCcZsw5",
+          "tip": "1-hour tour.",
+          "links": [
+            {
+              "label": "Mardi Gras World tickets",
+              "url": "https://www.viator.com/searchResults/all?text=Mardi+Gras+World",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "aquarium",
+          "name": "Audubon Aquarium",
+          "category": "see",
+          "blurb": "On the riverfront, with marine life from the Gulf to the Caribbean.",
+          "address": "1 Canal St, New Orleans, LA 70130",
+          "lat": 29.9505,
+          "lng": -90.0634,
+          "mapUrl": "https://maps.app.goo.gl/uwbQak6Zc4h5DA8E6",
+          "tip": "Great on hot or rainy days."
+        },
+        {
+          "id": "wwii",
+          "name": "The National WWII Museum",
+          "category": "see",
+          "blurb": "America's official WWII museum. Don't miss the Higgins boat, invented right here in New Orleans.",
+          "address": "945 Magazine St, New Orleans, LA 70130",
+          "lat": 29.943,
+          "lng": -90.0705,
+          "mapUrl": "https://maps.app.goo.gl/NznYfvqaFbrw9RyT9",
+          "tip": "Give it a whole day.",
+          "links": [
+            {
+              "label": "WWII Museum tickets",
+              "url": "https://www.viator.com/searchResults/all?text=National+WWII+Museum",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "sazerac",
+          "name": "Sazerac House",
+          "category": "see",
+          "blurb": "An interactive museum of New Orleans cocktail history and the city's official drink, the Sazerac.",
+          "address": "300 Magazine St, New Orleans, LA 70130",
+          "lat": 29.9493,
+          "lng": -90.0686,
+          "tip": "Free. Bring a U.S. ID or passport."
+        }
+      ]
+    },
+    {
+      "id": "nashville",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "tagline": "Music City, U.S.A.",
+      "color": "#0057B8",
+      "color2": "#B45309",
+      "emoji": "🤠",
+      "toursLink": {
+        "label": "Book Nashville Tours",
+        "url": "https://www.viator.com/searchResults/all?text=Nashville+Tennessee",
+        "kind": "tour"
+      },
+      "categories": [
+        {
+          "id": "eat",
+          "label": "Places to Eat",
+          "emoji": "🍗",
+          "color": "#F28C28"
+        },
+        {
+          "id": "music",
+          "label": "Music & Sights",
+          "emoji": "🎤",
+          "color": "#7B2CBF"
+        },
+        {
+          "id": "drinks",
+          "label": "Honky-Tonks & Drinks",
+          "emoji": "🍺",
+          "color": "#00A6A6"
+        },
+        {
+          "id": "see",
+          "label": "Must-See",
+          "emoji": "⭐",
+          "color": "#0057B8"
+        },
+        {
+          "id": "history",
+          "label": "Civil Rights History",
+          "emoji": "✊",
+          "color": "#B45309"
+        }
+      ],
+      "dayPlan": [
+        {
+          "title": "Day One",
+          "stops": [
+            {
+              "when": "Morning",
+              "text": "Tour the Ryman Auditorium, the Mother Church of Country Music."
+            },
+            {
+              "when": "Late morning",
+              "text": "Country Music Hall of Fame. Add the RCA Studio B tour if you can."
+            },
+            {
+              "when": "Lunch",
+              "text": "Hot chicken at Hattie B's, or whole-hog barbecue at Martin's."
+            },
+            {
+              "when": "Afternoon",
+              "text": "The Johnny Cash Museum, then the National Museum of African American Music."
+            },
+            {
+              "when": "Evening",
+              "text": "Lower Broadway honky-tonks: Robert's Western World and Tootsie's."
+            },
+            {
+              "when": "Night",
+              "text": "A show at the Grand Ole Opry."
+            }
+          ]
+        },
+        {
+          "title": "Day Two",
+          "stops": [
+            {
+              "when": "Breakfast",
+              "text": "Biscuits at the Loveless Cafe, or pancakes at Pancake Pantry."
+            },
+            {
+              "when": "Morning",
+              "text": "The Parthenon in Centennial Park."
+            },
+            {
+              "when": "Midday",
+              "text": "The Civil Rights Room at the Main Library, then walk past the Woolworth building."
+            },
+            {
+              "when": "Afternoon",
+              "text": "Andrew Jackson's Hermitage."
+            }
+          ]
+        }
+      ],
+      "shop": [
+        {
+          "label": "Goo Goo Clusters (Nashville candy)",
+          "url": "https://www.amazon.com/s?k=Goo+Goo+Cluster",
+          "kind": "shop"
+        },
+        {
+          "label": "Loveless Cafe biscuit mix",
+          "url": "https://www.amazon.com/s?k=Loveless+Cafe+biscuit+mix",
+          "kind": "shop"
+        },
+        {
+          "label": "Johnny Cash music",
+          "url": "https://www.amazon.com/s?k=Johnny+Cash+At+Folsom+Prison",
+          "kind": "shop"
+        }
+      ],
+      "places": [
+        {
+          "id": "hattie-bs",
+          "name": "Hattie B's Hot Chicken",
+          "category": "eat",
+          "blurb": "Nashville hot chicken, the city's signature dish, at heat levels from mild to \"Shut the Cluck Up!\" The Midtown original opened in 2012.",
+          "address": "112 19th Ave S, Nashville, TN 37203",
+          "lat": 36.1508,
+          "lng": -86.7978,
+          "tip": "Expect a line. Start mild."
+        },
+        {
+          "id": "princes",
+          "name": "Prince's Hot Chicken Shack",
+          "category": "eat",
+          "blurb": "Where Nashville hot chicken was born, run by the Prince family for generations. The legend says it began as revenge on a philandering Thornton Prince.",
+          "address": "5814 Nolensville Pike, Nashville, TN 37211",
+          "lat": 36.0786,
+          "lng": -86.7255,
+          "tip": "Short on time? Prince's has an outpost downtown at Assembly Food Hall."
+        },
+        {
+          "id": "loveless",
+          "name": "Loveless Cafe",
+          "category": "eat",
+          "blurb": "Biscuits, country ham and homemade preserves since 1951, at the top of the Natchez Trace Parkway. They bake up to 10,000 biscuits on a busy day.",
+          "address": "8400 TN-100, Nashville, TN 37221",
+          "lat": 36.0738,
+          "lng": -87.0061,
+          "tip": "About 25 minutes from downtown. Worth the drive."
+        },
+        {
+          "id": "pancake-pantry",
+          "name": "Pancake Pantry",
+          "category": "eat",
+          "blurb": "A Hillsboro Village breakfast institution since 1961, with a line out the door most mornings.",
+          "address": "1796 21st Ave S, Nashville, TN 37212",
+          "lat": 36.1373,
+          "lng": -86.8003
+        },
+        {
+          "id": "martins",
+          "name": "Martin's Bar-B-Que Joint",
+          "category": "eat",
+          "blurb": "West Tennessee whole-hog barbecue, smoked low and slow, a short walk from Broadway.",
+          "address": "410 4th Ave S, Nashville, TN 37201",
+          "lat": 36.1583,
+          "lng": -86.7748,
+          "links": [
+            {
+              "label": "Nashville food tours",
+              "url": "https://www.viator.com/searchResults/all?text=Nashville+food+tour",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "ryman",
+          "name": "Ryman Auditorium",
+          "category": "music",
+          "blurb": "Built in 1892 by riverboat captain Thomas Ryman as a gospel tabernacle, it was home to the Grand Ole Opry from 1943 to 1974. The Mother Church of Country Music.",
+          "address": "116 Rep. John Lewis Way N, Nashville, TN 37219",
+          "lat": 36.1613,
+          "lng": -86.7785,
+          "tip": "Take the daytime tour, or better yet, catch a show from the old church pews.",
+          "links": [
+            {
+              "label": "Ryman tours & tickets",
+              "url": "https://www.viator.com/searchResults/all?text=Ryman+Auditorium",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "opry",
+          "name": "Grand Ole Opry",
+          "category": "music",
+          "blurb": "The radio show that made country music famous, broadcasting since 1925. A circle of the Ryman's old stage floor is set into the stage.",
+          "address": "2804 Opry Mills Dr, Nashville, TN 37214",
+          "lat": 36.2069,
+          "lng": -86.6924,
+          "links": [
+            {
+              "label": "Opry tickets & backstage tours",
+              "url": "https://www.viator.com/searchResults/all?text=Grand+Ole+Opry",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "hall-of-fame",
+          "name": "Country Music Hall of Fame",
+          "category": "music",
+          "blurb": "The Smithsonian of country music: Elvis's gold Cadillac, Johnny Cash's guitars and the Hall of Fame rotunda.",
+          "address": "222 Rep. John Lewis Way S, Nashville, TN 37203",
+          "lat": 36.1582,
+          "lng": -86.7761,
+          "links": [
+            {
+              "label": "Hall of Fame tickets",
+              "url": "https://www.viator.com/searchResults/all?text=Country+Music+Hall+of+Fame",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "studio-b",
+          "name": "RCA Studio B",
+          "category": "music",
+          "blurb": "The studio where Elvis recorded more than 200 songs and the \"Nashville Sound\" was born.",
+          "address": "1611 Roy Acuff Pl, Nashville, TN 37203",
+          "lat": 36.1513,
+          "lng": -86.7915,
+          "tip": "Visit only by tour, bought with Hall of Fame admission.",
+          "links": [
+            {
+              "label": "Studio B tours",
+              "url": "https://www.viator.com/searchResults/all?text=RCA+Studio+B",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "johnny-cash",
+          "name": "Johnny Cash Museum",
+          "category": "music",
+          "blurb": "The largest collection of Johnny Cash artifacts in the world, from his Sun Records days to the Man in Black.",
+          "address": "119 3rd Ave S, Nashville, TN 37201",
+          "lat": 36.1607,
+          "lng": -86.7756,
+          "links": [
+            {
+              "label": "Johnny Cash Museum tickets",
+              "url": "https://www.viator.com/searchResults/all?text=Johnny+Cash+Museum",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "nmaam",
+          "name": "National Museum of African American Music",
+          "category": "music",
+          "blurb": "Opened in 2021, it traces more than 50 genres from spirituals and blues to jazz, gospel and hip-hop. Very interactive.",
+          "address": "510 Broadway, Nashville, TN 37203",
+          "lat": 36.1597,
+          "lng": -86.7787
+        },
+        {
+          "id": "bluebird",
+          "name": "The Bluebird Cafe",
+          "category": "music",
+          "blurb": "A tiny strip-mall club where songwriters play \"in the round\" and you hear the hits from the people who wrote them.",
+          "address": "4104 Hillsboro Pike, Nashville, TN 37215",
+          "lat": 36.1029,
+          "lng": -86.8163,
+          "tip": "Seats are reserved online and go fast."
+        },
+        {
+          "id": "roberts",
+          "name": "Robert's Western World",
+          "category": "drinks",
+          "blurb": "Traditional country on Broadway in the old Sho-Bud steel guitar shop. Order the $6 Recession Special: fried bologna sandwich, chips, a MoonPie and a PBR.",
+          "address": "416 Broadway, Nashville, TN 37203",
+          "lat": 36.1604,
+          "lng": -86.7778
+        },
+        {
+          "id": "tootsies",
+          "name": "Tootsie's Orchid Lounge",
+          "category": "drinks",
+          "blurb": "The purple honky-tonk where Opry stars slipped out the Ryman's back door for a drink. Willie Nelson and Patsy Cline were regulars.",
+          "address": "422 Broadway, Nashville, TN 37203",
+          "lat": 36.1602,
+          "lng": -86.7781,
+          "tip": "No cover. Tip the band."
+        },
+        {
+          "id": "printers-alley",
+          "name": "Printers Alley",
+          "category": "drinks",
+          "blurb": "Once the heart of Nashville's printing trade, later a speakeasy alley. Neon, nightclubs and live blues today.",
+          "address": "Printers Alley, Nashville, TN 37201",
+          "lat": 36.1645,
+          "lng": -86.779
+        },
+        {
+          "id": "parthenon",
+          "name": "The Parthenon",
+          "category": "see",
+          "blurb": "A full-scale replica of the Athens original, built for the 1897 Tennessee Centennial Exposition. Inside stands a 42-foot gilded Athena.",
+          "address": "2500 West End Ave, Nashville, TN 37203",
+          "lat": 36.1497,
+          "lng": -86.8133
+        },
+        {
+          "id": "hermitage",
+          "name": "Andrew Jackson's Hermitage",
+          "category": "see",
+          "blurb": "The plantation home of the seventh president, where Jackson and his wife Rachel are buried. A complicated, essential American story.",
+          "address": "4580 Rachel's Ln, Hermitage, TN 37076",
+          "lat": 36.2153,
+          "lng": -86.6127,
+          "links": [
+            {
+              "label": "Hermitage tickets",
+              "url": "https://www.viator.com/searchResults/all?text=Andrew+Jackson+Hermitage",
+              "kind": "tour"
+            }
+          ]
+        },
+        {
+          "id": "civil-rights-room",
+          "name": "Civil Rights Room, Nashville Public Library",
+          "category": "history",
+          "blurb": "Sit at a symbolic lunch counter and read the Ten Rules of Conduct the students carried during the 1960 sit-ins. It overlooks the intersection where the protests happened.",
+          "address": "615 Church St, Nashville, TN 37219",
+          "lat": 36.1623,
+          "lng": -86.7815,
+          "tip": "Free. Second floor, Special Collections."
+        },
+        {
+          "id": "woolworth",
+          "name": "Woolworth Building (Sit-In Site)",
+          "category": "history",
+          "blurb": "On February 27, 1960, a young John Lewis was arrested here for the first time, during the lunch-counter sit-ins. That May, Nashville desegregated its lunch counters.",
+          "address": "223 Rep. John Lewis Way N, Nashville, TN 37219",
+          "lat": 36.1633,
+          "lng": -86.7799,
+          "tip": "Now a theater. View it from the sidewalk."
+        },
+        {
+          "id": "fisk",
+          "name": "Fisk University & Jubilee Hall",
+          "category": "history",
+          "blurb": "In 1871 the Fisk Jubilee Singers toured the world singing spirituals to save their school. Jubilee Hall was built with the money they raised.",
+          "address": "1000 17th Ave N, Nashville, TN 37208",
+          "lat": 36.169,
+          "lng": -86.8048
+        }
+      ]
+    }
+  ]
+}
